@@ -11,10 +11,10 @@ function getTranslationURL(input) {
 }
 
 
-// function errorHandler(error) {
-//     console.log("error occured", error);
-//     alert("Something wrong with server: try again after some time");
-// }
+function errorHandler(error) {
+    console.log("error occured", error);
+    alert("Something wrong with server: try again after some time");
+}
 
 
 function clickHandler() {
@@ -27,7 +27,7 @@ function clickHandler() {
             var translatedText = json.contents.translated;
             outputText.innerText = translatedText; // Output.   
         })
-        // .catch(errorHandler)
+        .catch(errorHandler)
 };
 
 
