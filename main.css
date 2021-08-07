@@ -1,0 +1,86 @@
+*:root {
+    --primary : #11c4db;
+    --black : black;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Kalam', cursive;
+    color: #1d0303;
+
+}
+
+
+
+div {
+    display: block;
+}
+
+nav {
+    background-color: var(--primary);
+    text-align: center;
+}
+
+#img {
+    /* display: block; */
+    width: 5rem;
+}
+
+.main {
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    width: 50%;
+}
+
+textarea {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    min-height: 20vh;
+    margin-top: 2rem;
+    font-size: large;
+    font-family: inherit;
+}
+
+button {
+    background-color: var(--primary);
+    border: none;
+    margin: 1rem 0rem;
+    padding: 1rem 2rem;
+    font-family: 'Kalam', cursive;
+    font-size: 1.2rem;
+    border-radius: 10px;
+
+}
+
+.trans {
+    font-size: x-large;
+}
+
+#translate-output {
+    box-sizing: border-box;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    overflow: scroll;
+    border: 1px solid var(--black);
+}
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: var(--primary);
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+#all {
+    display: block;
+    margin: auto;
+    width: 500px;
+}
