@@ -35,4 +35,3 @@ function clickHandler() {
 btnTranslate.addEventListener("click", clickHandler)
 
 
-// console.log(textInput.value);   // Use this line in driving repo.
